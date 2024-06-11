@@ -1,38 +1,245 @@
-.App {
+.fa{
+  
+  font-size: 20px;
+  width: 20px;
   text-align: center;
+  text-decoration: none;
+}
+.fa:hover {
+  opacity: 0.7;
+  font-size: 22px;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.fa-facebook {
+color: rgb(0, 162, 255);
+}
+.fa-youtube {
+  color: rgb(255, 0, 0);
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.fa-instagram {
+  color: rgb(255, 89, 0);
+}
+.fa-whatsapp {
+  color: rgb(19, 128, 0);
+}
+div.scrollmenu {
+  background-color: #333;
+  overflow: auto;
+  white-space: nowrap;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+div.scrollmenu a {
+  display: inline-block;
   color: white;
+  text-align: center;
+  padding: 14px;
+  text-decoration: none;
 }
 
-.App-link {
-  color: #61dafb;
+div.scrollmenu a:hover {
+  background-color: #777;
+}
+.scrollable-content::-webkit-scrollbar {
+  display: none;
+}
+.myscroll
+ {
+  display: block; 
+  border: 0px solid red; 
+  padding: 5px; 
+  margin-top: 5px; 
+  width: 83.30%; 
+  height: 80vh; 
+  overflow-y: scroll; 
+}
+.myscroll2
+ {
+  width: 16.50%;
+  height: 80vh; 
+  overflow-y: scroll; 
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+.menulist{
+  display: none;
+}
+
+.new_footer_area {
+  /* background: #a4f9a3; */
+  width: 100%;
+  background: url("https://img.rawpixel.com/s3fs-private/rawpixel_images/website_content/rm373batch13-086-kpxyz0id.jpg?w=800&dpr=1&fit=default&crop=default&q=65&vib=3&con=3&usm=15&bg=F4F4F3&ixlib=js-2.2.1&s=ce7dc4d0821bed1419497b4863335308") no-repeat;
+  background-size: cover;
+}
+
+
+.new_footer_top {
+  padding: 120px 0px 270px;
+  position: relative;
+    overflow-x: hidden;
+}
+.new_footer_area .footer_bottom {
+  padding-top: 5px;
+  padding-bottom: 50px;
+}
+.footer_bottom {
+  font-size: 14px;
+  font-weight: 300;
+  line-height: 20px;
+  color: #e3e3e3;
+  padding: 27px 0px;
+}
+.new_footer_top .company_widget p {
+  font-size: 16px;
+  font-weight: 300;
+  line-height: 28px;
+  color: #eeeeee;
+  margin-bottom: 20px;
+}
+.new_footer_top .company_widget .f_subscribe_two .btn_get {
+  border-width: 1px;
+  margin-top: 20px;
+}
+.btn_get_two:hover {
+  background: transparent;
+  color: #f7f7f7;
+}
+.btn_get:hover {
+  color: #fff;
+  background: #6754e2;
+  border-color: #6754e2;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+}
+a:hover, a:focus, .btn:hover, .btn:focus, button:hover, button:focus {
+  text-decoration: none;
+  outline: none;
+}
+
+
+
+.new_footer_top .f_widget.about-widget .f_list li a:hover {
+  color: #bebe60;
+}
+.new_footer_top .f_widget.about-widget .f_list li {
+  margin-bottom: 11px;
+}
+.f_widget.about-widget .f_list li:last-child {
+  margin-bottom: 0px;
+}
+.f_widget.about-widget .f_list li {
+  margin-bottom: 15px;
+}
+.f_widget.about-widget .f_list {
+  margin-bottom: 0px;
+}
+.new_footer_top .f_social_icon a {
+  width: 44px;
+  height: 44px;
+  line-height: 43px;
+  background: transparent;
+  border: 1px solid #e2e2eb;
+  font-size: 24px;
+}
+.f_social_icon a {
+  width: 46px;
+  height: 46px;
+  border-radius: 50%;
+  font-size: 14px;
+  line-height: 45px;
+  color: #858da8;
+  display: inline-block;
+  background: #ebeef5;
+  text-align: center;
+  -webkit-transition: all 0.2s linear;
+  -o-transition: all 0.2s linear;
+  transition: all 0.2s linear;
+}
+.ti-facebook:before {
+  content: "\e741";
+}
+.ti-twitter-alt:before {
+  content: "\e74b";
+}
+.ti-vimeo-alt:before {
+  content: "\e74a";
+}
+.ti-pinterest:before {
+  content: "\e731";
+}
+
+.btn_get_two {
+  -webkit-box-shadow: none;
+  box-shadow: none;
+  background: #11ff00;
+  border-color: #00ff15;
+  color: #fff;
+}
+
+.btn_get_two:hover {
+  background: transparent;
+  color: #006000;
+}
+
+.new_footer_top .f_social_icon a:hover {
+  background: #ffffffe3;
+  border-color: #55ff00;
+color:white;
+}
+.new_footer_top .f_social_icon a + a {
+  margin-left: 4px;
+}
+.new_footer_top .f-title {
+  margin-bottom: 30px;
+  color: #ff5900;
+}
+.f_600 {
+  font-weight: 600;
+}
+.f_size_18 {
+  font-size: 18px;
+}
+h1, h2, h3, h4, h5, h6 {
+  color: #115000;
+}
+.new_footer_top .f_widget.about-widget .f_list li a {
+  color: #2d68fd;
+}
+.Mathi-Mo{
+  color: white;
+  
+}
+
+.style-footer1{
+  visibility: visible; animation-delay: 0.2s; animation-name: fadeInLeft;
+}
+.footer-p{
+  display: none;
+}
+@media screen and (max-width: 750px) {
+  .myscroll2 {
+    display: none;
   }
-  to {
-    transform: rotate(360deg);
+  .menulist{
+    position: fixed;
+    top: 15%;
+    left: 10px;
+    display: block;
+    height: 70vh;
+    text-align: center;
+    overflow-y: scroll;
+    overflow-x: scroll;
+ 
+
   }
+  .li-color{
+    background: #1fff2e97;
+  }
+  .menulist li{
+    width: 150px;
+    
+  }
+  .myscroll{
+    width: 100%;
+  }
+  
 }
